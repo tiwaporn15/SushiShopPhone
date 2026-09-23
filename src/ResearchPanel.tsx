@@ -6,7 +6,6 @@ interface ResearchPanelProps {
   open: boolean
   onClose: () => void
 }
-
 export default function ResearchPanel({ api, open, onClose }: ResearchPanelProps) {
   if (!open) return null
 

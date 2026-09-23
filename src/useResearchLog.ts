@@ -16,7 +16,6 @@ export interface ResearchRecord {
   success: 0 | 1
   at: string
 }
-
 const STORAGE_KEY = 'sushiShopResearchLog'
 
 function loadLog(): ResearchRecord[] {

@@ -11,7 +11,6 @@ export interface TaskSetDef {
   set: SetId
   lines: TargetLine[]
 }
-
 /**
  * ชุดโจทย์สำหรับงานวิจัย (จากเอกสาร UXUI.pdf)
  * itemId อ้างอิงรูปแบบ `${groupId}-${index}` ตามที่ menuData.ts สร้างด้วย makeItems()

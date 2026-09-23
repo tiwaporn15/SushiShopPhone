@@ -13,7 +13,6 @@ import { useResearchLog, type ResearchRecord } from './useResearchLog'
 import ResearchPanel from './ResearchPanel'
 
 const baht = (amount: number) => `฿${amount.toLocaleString('th-TH')}`
-
 const pickRandomItemIds = (items: MenuItem[], count: number) => {
   const shuffled = [...items]
 
